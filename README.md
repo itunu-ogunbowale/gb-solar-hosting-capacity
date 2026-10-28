@@ -1,5 +1,8 @@
 # Solar hosting capacity on the reduced GB transmission network
 
+> **N-1 security cuts solar hosting capacity at bus 8 by over 70%: 2750 MW → 750 MW at peak demand.**
+> The limit is thermal (the double circuit from bus 8 to bus 10), not voltage, so reactive power control from the solar farm does not raise it. At the weakest bus (bus 2), summer minimum demand leaves no N-1 secure capacity at all.
+
 A power system study in Python with [pandapower](https://www.pandapower.org/). It asks how much solar a weak point on the Great Britain transmission network can take before voltage, thermal or N-1 security limits are breached, and how solar changes fault levels.
 
 The network is pandapower's `GBreducednetwork()`: a 29-bus representative model of the GB transmission system (400, 275 and 132 kV) from the University of Edinburgh test case archive (W. A. Bukhsh and K. McKinnon). Each bus represents a whole region, so a "solar farm" here stands for the aggregated solar in that region.
