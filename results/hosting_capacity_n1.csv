@@ -1,0 +1,13 @@
+pv_bus,scenario,intact_hc_mw,n1_hc_mw,binding_constraint
+2,"Peak, unity pf",500,250,"4 outage(s) fail at 500 MW, e.g. line(s) [0, 1, 2, 3]"
+2,"Peak, 0.95 absorbing",500,250,"4 outage(s) fail at 500 MW, e.g. line(s) [0, 1, 2, 3]"
+2,"Summer min, unity pf",250,0,"2 outage(s) fail at 250 MW, e.g. line(s) [2, 3]"
+2,"Summer min, 0.95 absorbing",250,0,"2 outage(s) fail at 250 MW, e.g. line(s) [2, 3]"
+2,"Peak, voltage control",500,250,"4 outage(s) fail at 500 MW, e.g. line(s) [0, 1, 2, 3]"
+2,"Summer min, voltage control",250,0,"2 outage(s) fail at 250 MW, e.g. line(s) [2, 3]"
+8,"Peak, unity pf",2750,750,"2 outage(s) fail at 1000 MW, e.g. line(s) [14, 15]"
+8,"Peak, 0.95 absorbing",2750,750,"2 outage(s) fail at 1000 MW, e.g. line(s) [14, 15]"
+8,"Summer min, unity pf",3000,1000,"2 outage(s) fail at 1250 MW, e.g. line(s) [14, 15]"
+8,"Summer min, 0.95 absorbing",3000,1000,"2 outage(s) fail at 1250 MW, e.g. line(s) [14, 15]"
+8,"Peak, voltage control",2750,750,"2 outage(s) fail at 1000 MW, e.g. line(s) [14, 15]"
+8,"Summer min, voltage control",3000,1000,"2 outage(s) fail at 1250 MW, e.g. line(s) [14, 15]"
